@@ -1,0 +1,11 @@
+class BitByteListener implements CrashListener{
+    
+    @CrashListener
+    public void bitByteCrash(CrashReport r){
+    
+      system.out.println("@BitByte.exe has crashed.")
+      system.out.println(r.getStackTrace());
+    
+    }
+
+}
