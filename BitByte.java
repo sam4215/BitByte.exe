@@ -4,6 +4,11 @@ public class BitByte {
             leb.printSomeStackTrace();
             makeThisAnEXE();
             shipToGithub();
+            
+            Random rand = new Random();
+            if(rand.nextInt(10) < 5){
+                    this.crash();
+            }
         }
     }
 }
